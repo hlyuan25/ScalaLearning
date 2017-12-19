@@ -1,8 +1,8 @@
 package lesson6
 
-class Person (val name: String){
+class Person (val name: String){ out=>
   var age = 0
-  def description = s"$name is $age years old."
+  def description = s"${out.name} is $age years old."
 
 }
 
